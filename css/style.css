@@ -1,0 +1,250 @@
+
+/* #### GENERAL STYLES #### */
+
+body {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+    color: #333;
+
+}
+
+a {
+
+}
+
+.container {
+    width: 58.182%;
+    margin: 0 auto;
+    clear: all;
+}
+
+.col1 {
+    float: left;
+    display: inline-block;
+    width: 25%;
+}
+
+.col2 {
+    float: left;
+    display: inline-block;
+    width: 50%;
+}
+
+.col3 {
+    float: left;
+    display: inline-block;
+    width: 75%;
+}
+
+
+/* #### TOP BAR #### */
+
+#top-bar {
+    width: 100%;
+    height: 70px;
+    background-color: #fefefe;
+    position: fixed;
+    box-shadow: 0px -10px 30px #333;
+    z-index: 9999;
+}
+
+#top-bar .menu {
+    float: left;
+}
+
+#top-bar .logo {
+    float: right;
+}
+
+.logo img {
+    height: 50.000%; 
+    width: auto;
+    margin-top: 15.000%;
+}
+
+#top-bar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#top-bar a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+
+#top-bar a:hover {
+    font-style: italic;
+}
+
+
+/* #### SECÇÕES #### */
+
+    /* #### HEADER #### */
+
+header {
+    width: 100%;
+    height: 460px;
+    background-color: #373b47;
+    padding-top: 70px;
+    clear: all;
+}
+
+.headerText {
+    width: 90%;
+    margin: 75px auto;
+}
+
+.headerTextText {
+    color: #fefefe;
+    display: inline;
+    font-size: 60px;
+}
+
+#typed-cursor{
+    opacity: 1;
+    font-weight: 100;
+    color: #fefefe;
+    font-size: 80px;
+    -webkit-animation: blink 1.2s infinite;
+    -moz-animation: blink 1.2s infinite;
+    -ms-animation: blink 1.2s infinite;
+    -o-animation: blink 1.2s infinite;
+    animation: blink 1.2s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    /* float: right; */
+    margin: 75px auto;
+}
+
+.teste {
+    display: none;
+}
+
+.teste p {
+    color: #fff;
+}
+
+
+    /* #### SERVICES #### */
+
+#services {
+    width: 100%;
+    height: 560px;
+    background-color: #f17c72;
+}
+
+
+    /* #### WORK #### */
+
+#work {
+    width: 100%;
+    height: 660px;
+    background-color: #fefefe;
+}
+
+
+    /* #### THE TEAM #### */
+
+#the-team {
+    width: 100%;
+    height: 560px;
+    background-color: #32ac97;
+}
+
+
+    /* #### FOOTER #### */
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #fefefe;
+}
+#top-bar ul {
+    margin-top: 27px;
+}
+
+
+/* #### MEDIA QUERYS #### */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+    #top-bar {
+        display: none;
+    }
+
+    #top-bar-mobile {
+        width: 100%;
+        height: 100px;
+        background-color: #fff;
+        position: fixed;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) { 
+    .container {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { 
+    .container {
+        width: 90%;
+    }
+}
+
+/*@media screen and (max-width: 650px) {
+    .container {
+        width: 90%;
+    }
+
+    #top-bar {
+        height: 150px;
+    }
+}*/
+
+@media screen and (max-width: 1300px) {
+    #top-bar {
+        height: 50px;
+    }
+
+    #top-bar a {
+        font-size: 0.9em;
+    }
+
+    #top-bar ul {
+        margin-top: 17px;
+    }
+}
